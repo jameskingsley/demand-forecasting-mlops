@@ -2,9 +2,10 @@
 __pycache__/
 venv/
 .env
-/data/raw/*
-/data/processed/*
-!/data/*.dvc
-.dvc/config.local
 *.log
 clearml.conf
+# Ignore data but keep dvc metadata
+/data/raw/*
+/data/processed/*
+!/data/**/.gitignore
+!/data/**/*.dvc

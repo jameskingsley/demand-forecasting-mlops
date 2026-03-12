@@ -1,0 +1,5 @@
+outs:
+- md5: ecdce275528e808e011d4684fd1715cf
+  size: 811
+  hash: md5
+  path: raw_demand_data.csv
